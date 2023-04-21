@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_mark_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Mark Attendance"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_Year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Academic Year" />
+
+    <EditText
+        android:id="@+id/ed_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Semester" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/ed_date"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:hint="EditText 3" />-->
+
+    <EditText
+        android:id="@+id/ed_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Subject Name" />
+
+    <EditText
+        android:id="@+id/ed_rollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="enter Roll No" />
+
+    <Button
+        android:id="@+id/button_mark_attendance"
+        android:layout_width="match_parent"
+        android:backgroundTint="#000000"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mark Attendance" />
+
+</LinearLayout>

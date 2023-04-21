@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffC973"
+    android:orientation="vertical"
+    tools:context=".AddRemoveTeacher">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add/Remove\nStudent"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:background="@drawable/buttonstyle"
+        android:backgroundTint="#EDE7E7"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        android:hint="Enter Students Name"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:shadowRadius="10"
+        android:textSize="18sp"
+        app:cornerRadius="25dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_roll_no"
+        android:background="@drawable/buttonstyle"
+        android:backgroundTint="#EDE7E7"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="10dp"
+        android:hint="Enter Students Roll No"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowRadius="20"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        app:cornerRadius="25dp" />
+
+    <Spinner
+        android:id="@+id/spinnerSem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/buttonstyle"
+        android:backgroundTint="#EDE7E7"
+        android:entries="@array/SEMESTER"
+        android:drawablePadding="10dp"
+        android:gravity="center|center_vertical"
+        android:minHeight="48dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:shadowRadius="10"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/buttonstyle"
+        android:backgroundTint="#EDE7E7"
+        android:entries="@array/SelectedBranch"
+        android:drawablePadding="10dp"
+        android:gravity="center|center_vertical"
+        android:minHeight="48dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:shadowRadius="10"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassw"
+        android:background="@drawable/user"
+        android:backgroundTint="#EDE7E7"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowRadius="20"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        app:cornerRadius="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/Remove"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:shadowRadius="30"
+            app:cornerRadius="25dp"
+            android:text="Remove" />
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cornerRadius="25dp"
+            android:text="Add" />
+    </LinearLayout>
+
+
+</LinearLayout>

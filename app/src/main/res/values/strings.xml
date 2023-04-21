@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Restaurant management</string>
+
+
+    <string-array name="SelectedBranch">
+        <item>BSC(I.T)</item>
+        <item>BSC(C.S)</item>
+        <item>BSC(Chemistry)</item>
+        <item>BSC</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>2022–2023</item>
+        <item>2023–2024</item>
+        <item>2024–2025</item>
+        <item>2026–2027</item>
+    </string-array>
+
+    <string-array name="SEMESTER">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Forth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+    </string-array>
+
+    <string-array name="DAYS">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="TIME">
+        <item>8:00AM-9:00AM</item>
+        <item>9:00AM-10:00AM</item>
+        <item>10:00AM-11:00AM</item>
+        <item>11:00AM-12:00AM</item>
+        <item>12:00PM-1:00PM</item>
+        <item>1:00PM-2:00PM</item>
+        <item>2:00PM-3:00PM</item>
+        <item>3:00PM-4:00PM</item>
+    </string-array>
+
+    <string-array name="MONTH">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="SelectedUser">
+        <item>Admin</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+
+</resources>
