@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Restaurant management</string>
+    <string name="app_name">Attendance Manager</string>
 
 
     <string-array name="SelectedBranch">
